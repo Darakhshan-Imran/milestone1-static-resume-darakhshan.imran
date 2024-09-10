@@ -1,0 +1,132 @@
+*{
+   
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;  
+}
+body{
+    background: lightblue;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.resume{
+    position:relative;
+    width:100%;
+    padding:5px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #fff;
+    margin:50px;
+    box-shadow: 0 35px 55px rgb(79, 78, 78);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(54, 49, 49);
+    color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.profile-picture {
+    
+    justify-content: start;
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border:solid;
+    border-color: #a55353;
+}
+h1{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #022f53;
+}
+
+#education{
+    padding:10px;
+    font-family: 'poppins', sans-serif;
+    font-size: medium;
+}
+
+#skills{
+    padding:10px;
+    font-family: 'poppins', sans-serif;
+    font-size: medium;
+}
+
+*{box-sizing:border-box}
+
+
+.container {
+  width: 100%; 
+  background-color: #a29a9a; 
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} 
+.css {width: 80%; background-color: #2196F3;} 
+.js {width: 80%; background-color: #f44336;} 
+.ts {width: 90%; background-color: #def436;} 
+
+#experience{
+    padding:10px;
+    font-family: 'poppins', sans-serif;
+    font-size: medium;
+}
+#projects{
+    padding:10px;
+    font-family: 'poppins', sans-serif;
+    font-size: medium;
+}
+
+#edubtn{
+    padding:5px;
+    width:8rem;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c4c5c6;
+
+}
+
+#expbtn{
+    padding:5px;
+    width:8rem;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c4c5c6;
+}
+
+#skillsbtn{
+    padding:5px;
+    width:8rem;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c4c5c6;
+}
+#projectbtn{
+    padding:5px;
+    width:8rem;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c4c5c6;
+}
